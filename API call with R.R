@@ -10,10 +10,6 @@ library(RODBC)
 library(tools)
 library(lubridate)
 
-
-username <- "7ba131ecb8c1d76ae7588e5365c7269f"
-password <- "6fbbfe732bec5c89bf0896942d482d07"
-
 base <- "https://api.intrinio.com/"
 endpoint <- "prices"
 stock <- "AAPL"
